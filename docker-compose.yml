@@ -3,7 +3,7 @@ services:
     image: sparrow-wallet:latest  # Use the locally built image in Portainer
     container_name: sparrow-wallet
     ports:
-      - "8080:8080"  # Adjust this port if needed
+      - "8082:8082"  # Adjust this port if needed
     volumes:
       - sparrow-data:/data  # Use the volume you just created
     restart: unless-stopped
