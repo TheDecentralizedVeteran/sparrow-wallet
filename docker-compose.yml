@@ -1,0 +1,6 @@
+services:
+  sparrow:
+    image: sparrow-wallet:latest  # Or specify the built Docker image name
+    build:
+      context: .  # This tells Docker to use the current directory for the Dockerfile
+    container_name: sparrow-wallet
